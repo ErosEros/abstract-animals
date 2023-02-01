@@ -19,19 +19,32 @@ public class Main {
 		 
 //	CANE
 		 c.verso();
-		 c.nuota();
+		 
 //	PASSEROTTO					 
 		 p.dormi();
 		 p.verso();
-		 p.vola();
+	
 //	AQUILA
 		 a.mangia();
 		 a.dormi();
-		 a.vola();
+		
 //  DELFINO
 		 d.verso();
-		 d.nuota();
+		
+		 
+		 puoiNuotare(c);
+		 puoiVolare(p);
+		 puoiNuotare(d);
+		 puoiVolare(a);
 		 
 	}
 
+	public static void puoiVolare(Volare Animale) {
+		Animale.vola();
+	}
+	
+	
+	public static void puoiNuotare(Nuotare Animale) {
+		Animale.nuota();
+	}
 }

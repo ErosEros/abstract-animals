@@ -14,11 +14,11 @@ public class Cane extends Animal implements Nuotare {
 		// TODO Auto-generated method stub
 		System.out.println("Cane mangia: Croccantini");
 	}
-
+	
 	@Override
 	public void nuota() {
 		// TODO Auto-generated method stub
-		System.out.println("Cane : Nuota");
-	}
+		System.out.println("Cane: Nuota");
+		}
 
 }

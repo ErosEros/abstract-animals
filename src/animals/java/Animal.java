@@ -13,4 +13,9 @@ public abstract class Animal {
 		// TODO Auto-generated method stub
 		System.out.println("Zzz");
 	}
+	
+	public void nuota() {
+		// TODO Auto-generated method stub
+		
+	}
 }
