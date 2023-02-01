@@ -19,6 +19,6 @@ public class Passerotto extends Animal implements Volare {
 	@Override
 	public void vola() {
 		// TODO Auto-generated method stub
-		System.out.println("Passerotto : Vola");
+		System.out.println("Passerotto : Sto volando");
 	}
 }

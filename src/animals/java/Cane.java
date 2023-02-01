@@ -18,7 +18,7 @@ public class Cane extends Animal implements Nuotare {
 	@Override
 	public void nuota() {
 		// TODO Auto-generated method stub
-		System.out.println("Cane: Nuota");
+		System.out.println("Cane: Sto nuotando");
 		}
 
 }

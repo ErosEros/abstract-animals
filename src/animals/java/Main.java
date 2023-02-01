@@ -32,19 +32,19 @@ public class Main {
 		 d.verso();
 		
 		 
-		 puoiNuotare(c);
-		 puoiVolare(p);
-		 puoiNuotare(d);
-		 puoiVolare(a);
+		 faiNuotare(c);
+		 faiVolare(p);
+		 faiNuotare(d);
+		 faiVolare(a);
 		 
 	}
 
-	public static void puoiVolare(Volare Animale) {
+	public static void faiVolare(Volare Animale) {
 		Animale.vola();
 	}
 	
 	
-	public static void puoiNuotare(Nuotare Animale) {
+	public static void faiNuotare(Nuotare Animale) {
 		Animale.nuota();
 	}
 }

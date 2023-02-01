@@ -19,6 +19,6 @@ public class Aquila extends Animal implements Volare{
 	@Override
 	public void vola() {
 		// TODO Auto-generated method stub
-		System.out.println("Aquila: Vola");
+		System.out.println("Aquila: Sto volando");
 	}
 }
