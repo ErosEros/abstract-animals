@@ -19,14 +19,18 @@ public class Main {
 		 
 //	CANE
 		 c.verso();
+		 c.nuota();
 //	PASSEROTTO					 
 		 p.dormi();
 		 p.verso();
+		 p.vola();
 //	AQUILA
 		 a.mangia();
 		 a.dormi();
+		 a.vola();
 //  DELFINO
 		 d.verso();
+		 d.nuota();
 		 
 	}
 

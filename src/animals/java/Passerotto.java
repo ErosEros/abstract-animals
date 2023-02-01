@@ -1,6 +1,6 @@
 package animals.java;
 
-public class Passerotto extends Animal {
+public class Passerotto extends Animal implements Volare {
 	
 	
 
@@ -14,5 +14,11 @@ public class Passerotto extends Animal {
 	void mangia() {
 		// TODO Auto-generated method stub
 		System.out.println("Passerotto mangia: Mangime");
+	}
+
+	@Override
+	public void vola() {
+		// TODO Auto-generated method stub
+		System.out.println("Passerotto : Vola");
 	}
 }

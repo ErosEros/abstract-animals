@@ -1,6 +1,6 @@
 package animals.java;
 
-public class Cane extends Animal {
+public class Cane extends Animal implements Nuotare {
 
 	
 	@Override
@@ -13,6 +13,12 @@ public class Cane extends Animal {
 	void mangia() {
 		// TODO Auto-generated method stub
 		System.out.println("Cane mangia: Croccantini");
+	}
+
+	@Override
+	public void nuota() {
+		// TODO Auto-generated method stub
+		System.out.println("Cane : Nuota");
 	}
 
 }
