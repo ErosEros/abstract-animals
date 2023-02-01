@@ -2,11 +2,7 @@ package animals.java;
 
 public class Aquila extends Animal{
 
-	@Override
-	void dormi() {
-		// TODO Auto-generated method stub
-		System.out.println("Aquila: Zzz");
-	}
+	
 
 	@Override
 	void verso() {
